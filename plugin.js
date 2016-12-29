@@ -1,7 +1,7 @@
 
 (function ($) {
 
-    var _optionsStoreName = 'settings-store';
+    var _optionsStoreName = 'options-store';
 
     var _getOptions = function (elem) {
         return elem.data(_optionsStoreName);
